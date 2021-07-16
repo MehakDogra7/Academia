@@ -12,7 +12,7 @@ public class Bills implements Cloneable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;                                         //Primary Key
+    private  Integer id;                                         //Primary Key
     private String description;
     @Column(nullable = false)
     private Integer totalAmount;
